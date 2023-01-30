@@ -19,7 +19,7 @@ public class Test : MonoBehaviour
         array[4] = 60;
 
         // ”z—ñ‚Ì—v‘f‚ð‚·‚×‚Ä•\Ž¦‚·‚é
-        for (int i = 0; i < 5; i++)
+        for (int i = 4; i >= 0; i--)
         {
             Debug.Log(array[i]);
         }
